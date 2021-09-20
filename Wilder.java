@@ -25,6 +25,6 @@ public class Wilder {
     }
 
     public String whoAmI(){
-        return present ? "My name is "+this.firstName+" and I am present" : "My name is "+this.firstName+" and I am not present";
+        return "My name is "+this.firstName+" and I am " + (present ? "present" : "not present");
     }
 }
