@@ -11,5 +11,11 @@ public class Classroom {
         System.out.println(personB.whoAmI());
         System.out.println(personC.whoAmI());
         System.out.println(personD.whoAmI());
+
+        System.out.println();
+
+        // Test setter
+        personA.setPresent(true);
+        System.out.println(personA.whoAmI());
     }
 }
